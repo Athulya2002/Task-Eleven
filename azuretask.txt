@@ -1,0 +1,26 @@
+Steps to create a virtual machine in azure
+
+1. Login to the account.
+2. Take virtual machines.
+3. Click on create
+4. Fill the details . 
+   4.1 Give a name to resource and to the virtual machine
+   4.2 Select appropriate image
+   4.3 Select size
+   4.4 Give a name to the key-pair
+   4.5 Download the private key
+5. Then click on review and create.
+6. A new window will come . Press on create.
+7. Enable ICMP protocol
+
+Steps to be done in kali 
+
+1. Login to ssh 
+   ssh -i <path to the private key> <username>@<ip (ip address of the VM)>
+2. ping the ip of the VM at another tab
+3. find your public ip and ping at the ssh login
+
+After finishing all tasks 
+
+1.Go to the "overview" section in Azure
+2.Then click on "Delete"
